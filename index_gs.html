@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gerador de senha</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    <link rel="stylesheet" href="gerador_senha/style_gs.css">
+</head>
+
+<body>
+    <div id="topPan"> <a href="#"><img src="images/logo.png" alt="Fome por conhecimento!" width="245" height="37" border="0"  class="logo" title="Education Zone"/></a>
+        <p>Estejam com fome. Continuem <span>famintos</span>! Enquanto estivermos com fome, estaremos vivos!</p>
+        <div id="topContactPan"> </div>
+          <div id="topMenuPan">
+            <div id="topMenuLeftPan"></div>
+            <div id="topMenuMiddlePan">
+              <ul>
+                <li class="home"><a href="index.html">Home</a></li>
+                <li><a href="11/eureka.html">eureka!</a></li> <!-- Sobre nós-->
+                <li><a href="suporte.html">suporte</a></li>
+                <!--li><a href="#">Livros</a></li-->
+                <li><a href="alimentese.html">fome?</a></li>
+                <li><a href="ide.html">ide!</a></li>
+                <li><a href="videos.html">vídeos</a></li>
+                <li><a href="cases.html" class="contact">cases!</a></li>
+                <li class="contact"><a href="contact.html" class="contact">contato</a></li>
+              </ul>
+            </div>
+            <div id="topMenuRightPan"></div>
+          </div>
+        </div>
+    <section class="conteudo">
+        <div class="conteudo-titulo">
+            <img src="gerador_senha/unlock.svg" alt="cadeado fechado">
+            <h2 class="titulo-principal">Gerador de senhas</h2>
+            <h3 class="titulo-secundario">Gere instantaneamente uma senha aleatória e segura</h3>
+        </div>
+        <div class="conteudo-senha">
+            <label for="senha">Senha</label>
+            <input name="senha" type="text" id="campo-senha" readonly>
+        </div>
+        <div class="parametro">
+            <h3 class="parametro-titulo">Personalize sua senha</h3>
+            <div class="parametro-coluna__senha">
+                <div class="parametro-senha">
+                    <h4 class="parametro-senha__titulo">Número de caracteres</h4>
+                    <div class="parametro-senha-botoes">
+                        <button class="parametro-senha__botao">-</button>
+                        <p class="parametro-senha__texto">12</p>
+                        <button class="parametro-senha__botao">+</button>
+                    </div>
+                </div>               
+                <div class="parametro-senha">
+                    <h4 class="parametro-senha__titulo">Características da senha</h4>
+                    <div class="parametro-senha-checkbox">
+                        <input name="maiusculo" type="checkbox" class="checkbox" checked>
+                        <label for="maiusculo">Letras maiúsculas</label>
+                    </div>
+                    <div class="parametro-senha-checkbox">
+                        <input name="minusculo" type="checkbox" class="checkbox">
+                        <label for="minusculo">Letras minúsculas</label>
+                    </div>
+                    <div class="parametro-senha-checkbox">
+                        <input name="numero" type="checkbox" class="checkbox">
+                        <label for="numero">Números</label>
+                    </div>
+                    <div class="parametro-senha-checkbox">
+                        <input name="simbolo" type="checkbox" class="checkbox">
+                        <label for="simbolo">Símbolos</label>
+                    </div>
+                </div>
+                <div class="parametro-senha">
+                    <h4 class="parametro-senha__titulo">Força da senha</h4>
+                    <div class="barra"></div>
+                    <div class="forca fraca"></div>
+                    <div class="parametro-senha-textos">
+                        <p>Fraca</p>
+                        <p>Média</p>
+                        <p>Forte</p>
+                    </div>
+                    <p class="entropia"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="gerador_senha/main_gs.js"></script>
+</body> 
+</html>
