@@ -10,7 +10,7 @@
     <loc>https://leandropensamentocomputacional.github.io/estejamcomfome/AN/eureka.html</loc>
     <lastmod>2025-02-11</lastmod>
     <changefreq>monthly</changefreq>
-    <priority>0.8</priority>
+    <priority>0.4</priority>
   </url>
   <url>
     <loc>https://leandropensamentocomputacional.github.io/estejamcomfome/suporte.html</loc>
@@ -18,5 +18,29 @@
     <changefreq>monthly</changefreq>
     <priority>0.6</priority>
   </url>
-  <!-- Adicione outras URLs aqui -->
+  <url>
+    <loc>https://leandropensamentocomputacional.github.io/estejamcomfome/alimentese.html</loc>
+    <lastmod>2025-02-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url>
+    <loc>https://leandropensamentocomputacional.github.io/estejamcomfome/ide.html</loc>
+    <lastmod>2025-02-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  <url>
+    <loc>https://leandropensamentocomputacional.github.io/estejamcomfome/videos.html</loc>
+    <lastmod>2025-02-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  <url>
+    <loc>https://leandropensamentocomputacional.github.io/estejamcomfome/cases.html</loc>
+    <lastmod>2025-02-11</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.7</priority>
+  </url>
+ <!-- Adicione outras URLs aqui -->
 </urlset>
