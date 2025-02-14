@@ -125,3 +125,47 @@ ul{list-style-type:none;}
     max-width: 100%;
     height: auto;
 }
+
+/* Outros estilos */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+#topPan {
+    padding: 1rem;
+}
+
+#topMenuPan ul {
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    padding: 0;
+    justify-content: center;
+}
+
+#topMenuPan ul li {
+    margin: 0.5rem;
+}
+
+#topMenuPan ul a {
+    text-decoration: none;
+    color: #333;
+}
+
+@media (max-width: 600px) {
+    #topMenuPan ul {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #topMenuPan ul li {
+        margin: 0.5rem 0;
+    }
+}
+
