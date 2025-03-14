@@ -160,8 +160,15 @@ img {
     margin: 10px;
 }
 
-@media (max-width: 768px) {
-    .container img {
-        flex: 1 1 100%;
+@media (min-width: 768px) {
+    img {
+        width: 200px;
     }
 }
+
+@media (max-width: 767px) {
+    img {
+        width: 100px;
+    }
+}
+
